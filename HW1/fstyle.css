@@ -1,0 +1,76 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.page{
+    padding: 20px 50px;
+    width: 100%;
+}
+
+
+a{
+    width: 200px;
+    display:inline;
+    height: 50px;
+    margin-bottom: 2vw;
+    border-radius: 50px;
+    padding: 12px 25px;
+    background-color: rgb(240, 240, 240);
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 1px;
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+    border: 4px outset rgb(240, 240, 240) ;
+   
+}
+a:hover{
+    background-color: lightslategray;
+    color: whitesmoke;
+    border: 4px inset rgb(240, 240, 240) ;
+}
+
+fieldset{
+    border-radius: 20px;
+    border: 1px solid gray;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    min-width: 300px;
+
+}
+
+p,legend{
+    font-size: clamp(16px, 2.4vw, 32px);
+}
+
+h2{
+    font-size: 3.5vw;
+}
+
+@media only screen and (max-width: 500px) {
+    .page, table {
+      width: 100%;
+    }
+}
+
+tr,th,td{
+    border: 1px solid gray;
+    padding: 10px;
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
