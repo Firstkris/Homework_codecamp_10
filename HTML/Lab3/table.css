@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: dimgray;
+}
+
+body{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+}
+
+table{
+    border: 1px solid lightgray;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, tr, th{
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+
+
+div{
+    border: 1px solid lightgray;
+    padding: 3px;
+}
+
+
+textarea{
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid lightgray;
+}
+
+#name{
+    width: 100%;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+}
+
+#sauce{
+    width: 100%;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+}
+
+#submit{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-color: grey;
+    color: honeydew;
+}

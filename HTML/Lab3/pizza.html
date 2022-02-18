@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Pizza</title>
+</head>
+<body>
+    <!-- <form action="post.html" method="post"> -->
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+        <div>
+            <table>
+                <tr>
+                    <th colspan="2">Pizza Shop 2.0</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name" id="name" placeholder="Please enter your name" required></td>
+                </tr>
+                <tr>
+                    <td>Pizza Topping</td>
+                    <td>
+                        <input type="radio" name="topping" id="topping" value="Supreme">
+                        <label for="topping">Supreme</label> <br>
+                        <input type="radio" name="topping" id="topping" value="Vegetarian">
+                        <label for="topping">Vegetarian</label> <br>
+                        <input type="radio" name="topping" id="topping" value="Hawaiian">
+                        <label for="topping">Hawaiian</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pizza Sauce</td>
+                    <td>
+                        <select name="sauce" id="sauce">
+                            <option value="Tomato">Tomato</option>
+                            <option value="Barbeque">Barbeque</option>
+                            <option value="mayonnaise">Mayonnaise</option>
+                            <option value="secret">Secret Sauce</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Extras</td>
+                    <td>
+                        <input type="checkbox" name="Extra Cheese" id="ExtraCheese">
+                        <label for="ExtraCheese">Extra Cheese</label> <br>
+                        <input type="checkbox" name="Gluten Free Base" id="GlutenFreeBase">
+                        <label for="GlutenFreeBase">Gluten Free Base</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Delivery Instruction</td>
+                    <td>
+                        <textarea name="moreinfo" id="moreinfo" cols="30" rows="10" placeholder="Please insert more information if needed"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Send My Order" id="submit"></td>
+                </tr>
+                
+            </table>
+
+    </form>
+</body>
+</html>
