@@ -8,6 +8,7 @@ body{
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 10px;
+    background-color: whitesmoke;
 }
 
 table{
@@ -19,13 +20,15 @@ table{
 td, tr, th{
     border: 1px solid lightgray;
     padding: 5px;
+
 }
 
 
 
 div{
     border: 1px solid lightgray;
-    padding: 3px;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 
@@ -51,9 +54,11 @@ textarea{
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
+    margin: 5px;
+    background-color: lightgrey;
 }
 
 #submit:hover{
-    background-color: grey;
-    color: honeydew;
+    background-color: dimgray;
+    color: lightgrey;
 }
