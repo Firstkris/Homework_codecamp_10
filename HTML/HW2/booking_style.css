@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 10%;
+    width: 100%;
+    max-width: 800px;
+}
+
+td,tr{
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+
+#country{
+    width: 100%;
+    border: 1px solid lightgrey;
+    color: dimgray;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+#submit{
+    background-color: darkorange;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 25%;
+}
+
+.number{
+    width: 100%;
+    border: 1px solid lightgray;
+    
+}
+
+.date{
+    width: 100%;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    color: dimgray;
+    padding: 5px;
+}
+
+#currency{
+    width: 100%;
+    border: 1px solid lightgray;
+    color: dimgray;
+    font-size: 1rem;
+    padding: 5px;
+    
+}
+
+
