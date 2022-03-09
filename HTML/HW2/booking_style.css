@@ -18,13 +18,8 @@ td,tr{
     padding: 10px;
 }
 
-td{
-    border: 1px solid black;
-}
-
 table {
     width: 100%;
-    border: 1px solid black;
 }
 
 
@@ -76,6 +71,7 @@ table {
     
 }
 
+/* in this sector; make date lable is clickable to show calendar picker */
 input[type="date"] {
     position: relative;
 }
