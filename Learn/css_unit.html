@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&dispaly=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7dbacef985.js" crossorigin="anonymous"></script>
+    <title>CSS UNIT</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: 'Kanit', sans-serif;
+           
+        }
+       .container{
+            position: relative;
+            background: #123456;
+            height: 10vh;
+            padding: 2px;
+            /* width: 50vw; */
+            font: 1.5em Arial;
+            box-shadow: 5px 5px 10px dimgray;
+       }
+
+       .box{
+            display:inline-block;
+            background: #ffffff;
+            width: 30vw;
+            word-wrap: break-word;
+            text-align: center;
+            box-shadow: 4px 0px 10px dimgray inset;
+            margin: 0;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            height: inherit;
+       }
+
+       .box>p{
+           display: inline-block;
+           text-align: center;
+           font-size: 4vw;
+           vertical-align: middle;
+           letter-spacing: 0.2vw;
+           letter-spacing: 10px;
+           text-shadow: 2px 2px 5px dimgray;
+           margin: 0;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+       }
+
+       h1{
+           background-color: aliceblue;
+           margin: auto;
+           width: 50%;
+           text-align: center;
+       }
+
+       .test{
+           background-color: rosybrown;
+           margin: auto;
+           width: 50%;
+           text-align: center;
+           text-overflow: ellipsis;
+           white-space: nowrap;
+           overflow: hidden;
+       }
+       .test:hover{
+           overflow:visible;
+           white-space: normal;
+       }
+
+       .imgtext{ /*tryr grid layout*/
+           display: grid;
+           grid-template-columns: 50% 50%;
+           /* flex-wrap: wrap; */
+           width: 100%;
+           /* text-align: center; */
+           padding: 20px;
+           height: 50%;
+           align-items: center;
+           /* border: 1px solid #123456; */
+       }
+       .imgtext p{
+           /* display: flex; */
+           /* float: left; */
+           text-align:justify;
+           text-justify:newspaper;
+           /* vertical-align: middle; */
+           width: 100%;
+           letter-spacing: 0.1rem;
+           line-height: 2;
+           padding: 10px;
+           margin: 0;
+       }
+
+       img{
+           display:flex;
+           /* float: left; */
+           /* float: inline-start; */
+           /* vertical-align: middle; */
+           width: 100%;
+           padding: 10px;
+           margin: 0;
+           /* align-items: center; */
+           
+       }
+
+    
+
+       #text{
+           text-indent: 1rem;
+           text-align: justify;
+           letter-spacing: 0.1rem;
+           width: 100%;
+           font-size: 1rem;
+           line-height: 2;
+           padding: 10px 20px;
+       }
+
+
+    </style>
+</head>
+<body>
+   <div class="container">
+       <!-- <p>1.5em</p> -->
+       <div class="box">
+         <p>MENU</p>
+       </div>
+     
+   </div>
+
+   <h1>Header</h1>
+   <div class="test">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid minima perferendis explicabo ratione eos laudantium expedita sed beatae officiis, earum cupiditate ut cum eligendi accusamus quo? Tempora sunt cumque magni vero natus nam quidem doloremque eveniet deserunt labore accusamus, ea iusto asperiores optio recusandae quo? Odio eaque laboriosam dolor.
+   </div>
+   <div class="imgtext">
+       <img src="https://picsum.photos/200" alt="">
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum accusantium culpa molestiae dolor temporibus sit quasi numquam alias nobis, debitis ipsum distinctio eum consequuntur necessitatibus corrupti consectetur in sint ipsa a? Vel aperiam tempore, quia, alias vero nemo ratione iusto beatae, enim error minima quaerat deleniti ea numquam commodi voluptatum. Repudiandae voluptas sit quasi et aliquam labore minus dolore quod fuga molestiae veniam, officiis itaque recusandae quisquam, odit ipsum ducimus neque debitis. Porro minus quibusdam eveniet, distinctio reprehenderit eligendi maxime assumenda asperiores fugiat quia labore sunt. Mollitia fuga at voluptates inventore voluptatibus quidem, aliquid id totam exercitationem quae, fugit molestiae?</p>
+    </div>
+       
+    <div class="textarea" style="background-color: #123456;">
+        <a href="text" 
+        style="
+     
+        font-size: 50px; 
+        color: #ffffff; 
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        text-decoration: 2px wavy red underline;
+        text-underline-offset: 5px;
+
+      
+        ">text</a>
+    </div>
+
+    <textarea name="text" id="text" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci facere, expedita ipsa maiores fugiat est atque ad nisi rerum omnis tempora perspiciatis aliquid numquam vero culpa mollitia? Debitis, maxime eaque voluptatum, consectetur amet esse quasi voluptatem et dicta sapiente autem, impedit tempora magnam. Earum temporibus repellat cum hic totam dolor.    </textarea>
+    <p>this is paragraph ข้อความภาษาไทย</p> <!-- p{this is paragraph}*5-->
+    <p>this is paragraph ข้อความภาษาไทย</p>
+    <p>this is paragraph ข้อความภาษาไทย</p>
+    <p>this is paragraph ข้อความภาษาไทย</p>
+    <p>this is paragraph ข้อความภาษาไทย</p>
+ 
+    <p>this is paragraph ข้อความภาษาไทย 1</p>
+    <p>this is paragraph ข้อความภาษาไทย 2</p>
+    <p>this is paragraph ข้อความภาษาไทย 3</p>
+    <p>this is paragraph ข้อความภาษาไทย 4</p>
+    <p>this is paragraph ข้อความภาษาไทย 5</p>
+    <i class="fa-brands fa-sistrix"></i>
+    <i class="fa-solid fa-address-book"></i>
+</body>
+</html>
