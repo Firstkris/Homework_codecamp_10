@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        body{
+            height: 200vh;
+        }
+    
+
+        div[class^="box"]:not(.box0):not(.box5) {
+            display: inline-block;
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+            background-color: #D6EAF8;
+
+        }
+
+        .box0{
+            background-color: moccasin;
+            overflow-y: scroll;
+            height: 100px;
+        
+        }
+
+
+        .box1{
+            top: 100px;
+            left: 100px;
+            transform: scale(1,0.9);
+        }
+
+        .box2{
+            top: 50px;
+            transform: scale(1,0.9);
+
+        }
+
+        .box3{
+            top: 120px;
+            right: 100px;
+            transform: scale(1,0.9);
+        }
+
+        .box4{
+            left: 340px;
+            top: -150px;
+            transform: scale(1,0.9);
+        }
+
+        .box5{
+            /* display:block; */
+            position: sticky;
+            width: 100%;
+            height: 10px;
+            background-color: yellow;
+            /* border-radius: 100%; */
+            top: 0px;
+            
+        }
+
+        .test{
+            background-color: #D6EAF8;
+            height: 200px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box0"> 
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+    </div>
+
+    <div class="test">
+        <p>Test div</p>
+    </div>
+    
+</body>
+</html>

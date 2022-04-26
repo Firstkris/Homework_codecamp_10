@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS LINK LISTS</title>
+    <script src="https://kit.fontawesome.com/7dbacef985.js" crossorigin="anonymous"></script>
+
+    <style>
+        a:active, :visited, :link{
+            text-decoration: none ;
+        }
+        #checked{
+            display: none;
+        }
+
+        a:hover+#checked {
+            color: green;
+            display:inline-block
+        }
+
+        a:visited+#checked{
+            display:inline-block;
+
+        }
+
+        ul{
+           list-style-position: inside;
+           list-style: none;
+        }
+
+        li{
+            background-color: rosybrown;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="http://google.com">google</a>
+    <i class="fa-solid fa-check" id="checked"></i>
+
+    <ul>
+        <li><a href="http://google.com"></a> ul list style = none <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quidem nihil sit vitae iure totam, beatae aspernatur possimus dolores? Consequuntur a natus dicta ratione maiores amet porro iusto odit vel, expedita laborum aliquam dolorem? Excepturi, tenetur. Officiis ducimus, fuga, necessitatibus tempora hic porro optio earum quo odio voluptate reprehenderit esse?</li>
+        <li><a href="http://google.com"></a></li>
+    </ul>
+</body>
+</html>

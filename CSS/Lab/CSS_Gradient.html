@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        .gradient_bg{
+            background-image: linear-gradient(to top right,#123456,#345678,#56789090);
+            height: 500px;
+        }
+        .gradient_bg2{
+            background-image: repeating-linear-gradient(#654321,#876543 10%,#56789090 5%);
+            height: 500px;
+        }
+        .gradient_bg3{
+            background-image: linear-gradient(to bottom right, #12345660,#22450050,rgba(175, 1, 255, 0.5)), url(https://picsum.photos/id/600/600);
+            height: 500px;
+            background-size: cover;
+        }
+        p{
+            display: inline-block;
+            background-color: #ffffff90;
+        }
+        div{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="gradient_bg">
+        <p> Normal gradient </p>
+    </div>
+    <div class="gradient_bg2">
+        <p> Repeat gradient </p>
+    </div>
+    <div class="gradient_bg3">
+        <p> Gradient and bg </p>
+    </div>
+
+    
+</body>
+</html>

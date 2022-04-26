@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Nav</title>
+    <style>
+        body{
+            height: 200vh;
+            margin: 0;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        li{
+            float: left;
+        }
+
+        li a {
+            display: block;
+        }
+
+
+        nav.vertical_bar{
+            display: block;
+            height: 5vh;
+            background-color: #abc;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        .main{
+            margin-top: 5vh;
+        }
+        /* nav.vertical_bar+p{
+            margin-top: 500px;
+        } */
+    </style>
+</head>
+<body>
+    <nav class="vertical_bar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li> test2</li>
+            <li></li>
+        </ul>
+
+    </nav>
+    <div class="main">box
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, exercitationem!</p>
+
+    </div>
+    <div>box</div>
+    <div>box</div>
+    
+</body>
+</html>

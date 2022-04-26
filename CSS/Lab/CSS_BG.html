@@ -22,11 +22,21 @@
         div[class^=box]:hover {
             transform: scale(1.2);
         }
+
+        #textarea1{
+            background: url(https://picsum.photos/300);
+            background-size: contain;
+        }
         
+        #textarea2{
+            background: url(https://picsum.photos/300);
+            background-size: cover;
+
+        }
     </style>
 </head>
 <body>
-    <img src="https://picsum.photos/id/600/600" alt="picsum">
+    <!-- <img src="https://picsum.photos/id/600/600" alt="picsum"> -->
 
     <div class="row1">
         <div class="box1" style="background-position: left top; "> </div>
@@ -49,5 +59,9 @@
     
 
     </div>
+<br>
+    <textarea name="test" id="textarea1" cols="30" rows="10" style="text-shadow: white;">contain</textarea>
+    <textarea name="test" id="textarea2" cols="30" rows="10">cover</textarea>
+
 </body>
 </html>
